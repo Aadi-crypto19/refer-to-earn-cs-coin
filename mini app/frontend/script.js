@@ -23,7 +23,7 @@ document.getElementById('signUpForm').addEventListener('submit', (e) => {
     const userId = userIdInput.value;
     const referralCode = referralCodeInput.value;
     
-    fetch('http://localhost:5000/api/register', {
+    fetch('https://refer-to-earn-cs-coin.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
