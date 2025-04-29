@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refer to Earn - CS Coin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CS Coin - Refer to Earn</h1>
+        <div id="userInfo">
+            <p>Welcome! Your Referral Code: <span id="referralCode"></span></p>
+            <p>Your Rewards: <span id="reward"></span> CS Coins</p>
+        </div>
+
+        <div>
+            <input type="text" id="referralLink" value="" disabled>
+            <button onclick="copyReferralLink()">Copy Referral Link</button>
+        </div>
+
+        <h2>Sign Up</h2>
+        <form id="signUpForm">
+            <input type="text" id="userId" placeholder="Enter your user ID" required>
+            <input type="text" id="referralCodeInput" placeholder="Enter referral code (optional)">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
